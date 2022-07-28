@@ -1,15 +1,13 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/layout'
 
-const Home: NextPage = () => {
+const Calendar: NextPage = () => {
   return (
       <Layout>
-        <text>This is the home page</text>
+        <text>This is the Calendar page</text>
       </Layout>
   )
 }
 
-export default Home
+export default Calendar
